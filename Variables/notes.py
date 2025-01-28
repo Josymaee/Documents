@@ -1,0 +1,1 @@
+# Joslynn ramirez, Variable notes

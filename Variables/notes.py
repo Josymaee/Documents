@@ -1,6 +1,5 @@
 # Joslynn ramirez, Variable notes
 
-name = "ms. Larose"
 
 subject = input("what's your favorite subject: ")
 

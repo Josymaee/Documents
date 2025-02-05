@@ -1,6 +1,5 @@
 # Joslynn Ramirez, First project python
 
-Name = "Josy"
 name = input("What is your name: ")
 
 age= input ("How old are you: ")
@@ -23,6 +22,5 @@ week = input ("How many days are in a week: ")
 
 year = input ("how many days are in a year: ")
 
-print (name "is", "Favorite subject is ", subject
-print("whats"
-print( "How old are you", )
+print (name "is", "Favorite subject is ", subject)
+print (age "I am", "I am", age

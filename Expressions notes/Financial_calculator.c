@@ -1,4 +1,4 @@
-// Josy Ramirez, TEMPLATE
+// Josy Ramirez, financial calculator C
 
 #include <stdio.h>
 

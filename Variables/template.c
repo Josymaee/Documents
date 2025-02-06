@@ -1,3 +1,5 @@
+// Josy Ramirez, yes
+
 #include <studio.h>
 
 char name[] = "joslynn";

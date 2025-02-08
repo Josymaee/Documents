@@ -1,6 +1,4 @@
-//Josy Ramirez, Variables practice C
-
-#include <stdio.h>
+#include<stdio.h>
 
 int void() {
     int number1 = 3; // number between 1 and 10

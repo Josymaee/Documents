@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main() {
+int void() {
     int number1 = 3; // number between 1 and 10
     int number2 = 375; // number between 100 and 1000
     char breakfast[] = "Cereal"; // what I had for breakfast

@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int void() {
+int void(main){
     int number1 = 3; // number between 1 and 10
     int number2 = 375; // number between 100 and 1000
     char breakfast[] = "Cereal"; // what I had for breakfast
@@ -22,6 +22,6 @@ int void() {
     printf("Eye Color: %s\n", eyeColor);
     printf("Age: %d\n", age);
     printf("Favorite Subject: %s\n", favoriteSubject);
-
+    
     return 0;
 }

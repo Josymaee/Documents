@@ -1,3 +1,5 @@
+//Josy Ramirez, Variables practice C
+
 #include <stdio.h>
 
 int main() {

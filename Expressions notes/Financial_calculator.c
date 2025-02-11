@@ -49,3 +49,4 @@ int main() {
     printf("Your transportation costs $%.2f, which is %.2f%% of your income.\n", transportation, transportation_percent);
     printf("Your savings amount to $%.2f, which is %.2f%% of your income.\n", savings, savings_percent);
     printf("Your spending money left is $%.2f, which is %.2f%% of your income.\n", spending, spending_percent);
+}

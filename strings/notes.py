@@ -14,4 +14,3 @@ sentence = "The quick brown fox jumps over the lazy dog"
 # print(len(sentence ))
 # print(sentence[4])
 print(sentence.find("brown"))
-print(sentence[start:+length])

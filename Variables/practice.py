@@ -1,4 +1,4 @@
-# Joslynn Ramirez, First project python
+# Joslynn Ramirez, First practice python
 
 name = input("What is your name: ")
 

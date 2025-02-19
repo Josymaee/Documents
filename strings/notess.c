@@ -8,13 +8,8 @@ char name[50], place[50], verb [50];
 void add (int numOne, int numTwo){
    return numOne+numTwo;
 }
-
-const char* word (type [50]){
-    char choice[50];
-    print("Please give me a %s: \n", type)
-    scanf("%s", choice); 
-    return choice;
-
+void due(char assignment[50], char day [50]){
+    printf("The %s assignemnt isdue %s", assignment, day)
 }
 int main(void){
         //printf("Please tell me a number:\n");

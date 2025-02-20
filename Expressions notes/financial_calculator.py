@@ -1,5 +1,7 @@
 # Josy Ramirez, Financial Calculator
-
+def info(cost, income, type):
+    perrent = cost/income *100
+    print(f"Your {type} is ${cost:.2f} which is XX% of your income.")
 # Print statement that welcomes users
 print("Hello! This is a financial calculator to help keep track of your money.")
 
@@ -16,19 +18,8 @@ savings = income * 0.10
 # Calculate remaining spending money after expenses and savings
 spending = income - (savings + rent + utilities + groceries + transportation)
 
-# Calculate percentage of income spent on each category
-rent_percent = (rent / income) * 100
-utilities_percent = (utilities / income) * 100
-groceries_percent = (groceries / income) * 100
-transportation_percent = (transportation / income) * 100
-savings_percent = (savings / income) * 100
-spending_percent = (spending / income) * 100
-
-# Display results
-print("\n--- Financial Summary ---")
-print(f"Your rent is ${rent:8f}, which is {rent_percent:.2f}% of your income.")
-print(f"Your utilities are ${utilities:.2f}, which is {utilities_percent:.2f}% of your income.")
-print(f"Your groceries cost ${groceries:.2f}, which is {groceries_percent:.2f}% of your income.")
-print(f"Your transportation costs ${transportation:.2f}, which is {transportation_percent:.2f}% of your income.")
-print(f"Your savings amount to ${savings:.2f}, which is {savings_percent:.2f}% of your income.")
-print(f"Your spending money left is ${spending:.2f}, which is {spending_percent:.2f}% of your income.")
+info(rent, income, "rent")
+info(utilities, income, "utilities")
+info(groceries, income, "groceries")
+info(transportation, income, "transportation")
+info(spending, income, "spending")

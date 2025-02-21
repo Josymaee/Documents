@@ -17,6 +17,6 @@ print("(:(:",name,":):)")
 
 name = input("What is your name?\n").strip().upper()
 
-print("<<<", name "<<<")
+print("<<<", name, "<<<")
 
 print("Thank you for using my program!:)")

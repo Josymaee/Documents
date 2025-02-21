@@ -1,14 +1,27 @@
-// Josy Ramirez, Silly sentence C
+# Joslynn Ramirez, Silly sentences c
 
 #include <stdio.h>
-// empty variables for user words (min 3)
+
+#include <string.h>
 
 int main(void){
-        //A welcome for the user telling them what the program is (print)
-
-        //ask user for words (print statement with a question scanf to set to a variable) (In C we need to tell the user that they can only type 1 word.)
-
-        //print out the story with the variables inserted ("welcome %s to my program, name)
-
-        return 0;
+char animal[20];
+char place[20];
+char verb[20];
+char sentence[400]= "The ";
+        
+printf("Name an animal: ");
+scanf("%s", animal);
+printf("Name a place: ");
+scanf("%s", place);
+printf("Name a past tense verb: ");
+scanf("%s", verb);
+strcat(sentence, animal);
+strcat(sentence, " went to the ");
+strcat(sentence, place);
+strcat(sentence, " and ");
+strcat(sentence, verb);
+strcat(sentence, " with his friend the mean dog. \n");
+    printf("%s", sentence);
+    return 0;
 }

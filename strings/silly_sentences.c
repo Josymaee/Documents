@@ -2,8 +2,6 @@
 
 #include <stdio.h>
 
-#include <string.h>
-
 int main(void){
 char animal[20];
 char place[20];

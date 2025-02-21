@@ -9,14 +9,15 @@ print("Hello! Thi is a program that makes your name look cool!.")
 #Ask for name 
 name = input("What is your name?\n").strip().upper()
 
-print("==",name,"==")
+print("==", name, "==")
 
-name = input("What is your name?\n").strip().upper()
+name_2 = input("What is your name?\n").strip().upper()
 
-print("(:(:",name,":):)")
+print("(:(:", name_2, ":):)")
 
-name = input("What is your name?\n").strip().upper()
+name_3 = input("What is your name?\n").strip().upper()
 
-print("<<<", name, "<<<")
+print("<<<", name_3, "<<<")
 
-print("Thank you for using my program!:)")
+name_four= name.strip().capitalize()
+print("Thank you for using my program, " + name_four + ":)")

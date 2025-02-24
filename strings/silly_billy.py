@@ -1,4 +1,4 @@
-# josy Ramirez, silly sentences c
+# josy Ramirez, silly sentences python
 
 animal= input ("Name an animal")
 place = input ("Name a place ")

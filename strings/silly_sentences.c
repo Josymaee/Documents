@@ -1,4 +1,4 @@
-// Josy Ramirez, Silly sentence C
+# Joslynn Ramirez, Silly sentences c
 
 #include <stdio.h>
 
@@ -22,4 +22,8 @@ strcat(sentence, verb);
 strcat(sentence, " with his friend the mean dog. \n");
     printf("%s", sentence);
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 022b2abba70bf4a2bbd8650d4c99b7c9649dc1fe

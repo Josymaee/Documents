@@ -7,10 +7,10 @@ void name(char name[]){
 }
 
 int main(void){
+    name("Josy");
+    name("Yenesis");
+    name("David");
     name("Emma");
-    name("Cooper");
-    name("Sawyer");
-    name("Nate");
-    name("Chris Hemsworth");
+    name("Juan");
     return 0;
 }

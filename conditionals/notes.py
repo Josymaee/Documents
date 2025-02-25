@@ -25,6 +25,7 @@ else:
     print(f"Hello, {name}")
 
 #5. What kind of statement do you use if you have more than 2 needed outcomes?
+num = int(input("how many cookies are there?:\n"))
 num = 2
 if num == 0:
     print("There are none")
@@ -55,11 +56,22 @@ elif num <10 or > 5: # or means one boolean must be true
 
 elif not num < 10: #non of the balean statements can be true 
     print("this is a big single digit number")
+
 #8. What are logical operators for?
+#Allows the code to handle more difficult questions..increases complexity 
+
 #9. What does a nested conditional statement do?
+if num <10:
+    if num ==8:
+        print("This prints at 8") #nest as many conditionals as you want but past 3 its more confusing
+    else:
+        if num ==4:
+        print("There are only enough cookies left for me. . . sorry")
+    else:
+        print("The number is less than 10")
+else:
+    print("The number is bigger than 10")
+
 #10. What does the nested conditiona statamenst do?
 if num <10: 
     if num ==8:
-
-
-

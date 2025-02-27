@@ -1,29 +1,36 @@
-# Josy Ramirez, Financial calculator
+# Josy Ramirez, Financial Calculator
 
-# print statement that welcomes what the program does
-print("Hello!This is financial calulator to help keep track of your money")
-# ask what their income is (variable an input)
-income = float(input("What is your income?\n"))
-# ask what their rent is (variable an input)
-rent = float(input("How much is your rent?\n"))
-# ask what their utilities is (variable an input)
-utilities = float(input("How much is your utilities?\n"))
-# ask what their groceries is (variable an input)
-groceries = float(input("How much are your groceries?\n"))
-# ask what their transportation is (variable an input)
-transportation = float(input("How much is your transportation?\n"))
-# calculate savings as 10% of income (income*,1) (variable)
-# calculate spending as income-savings-rent-utilites-groceries-transportation (variable)
-# calculate percent income of rent (rent/income*100) (variable)
+def get_expenses():
+    print("Hello! This is a financial calculator to help keep track of your money.")
 
-# calculate percent income of utilities (utilities/income*100) (variable)
-# calculate percent income of groceries (groceries/income*100) (variable)
-# calculate percent income of transportation (transportation/income*100) (variable)
-# calculate percent income of spending (spending/income*100) (variable)
+    income = float(input("What is your income?\n"))
+    rent = float(input("How much is your rent?\n"))
+    utilities = float(input("How much are your utilities?\n"))
+    groceries = float(input("How much are your groceries?\n"))
+    transportation = float(input("How much is your transportation?\n"))
 
-#Your rent is $XX.XX which is XX% of your income. (Print)
-#Your utilities is $XX.XX which is XX% of your income. (Print)
-#Your groceries is $XX.XX which is XX% of your income. (Print)
-#Your transportation is $XX.XX which is XX% of your income. (Print)
-#Your savings is $XX.XX which is XX% of your income. (Print)
-#Your spending is $XX.XX which is XX% of your income. (Print)
+    return income, rent, utilities, groceries, transportation
+
+def calculate_percentages(income, rent, utilities, groceries, transportation):
+    savings = income * 0.10  # 10% of income
+    spending = income - (savings + rent + utilities + groceries + transportation)
+
+    # Calculate percentages
+    rent_percent = (rent / income) * 100
+    utilities_percent = (utilities / income) * 100
+    groceries_percent = (groceries / income) * 100
+    transportation_percent = (transportation / income) * 100
+    savings_percent = (savings / income) * 100
+    spending_percent = (spending / income) * 100
+
+    # Print results
+    print(f"\nFinancial Summary:")
+    print(f"Your rent is ${rent:.2f}, which is {rent_percent:.2f}% of your income.")
+    print(f"Your utilities are ${utilities:.2f}, which is {utilities_percent:.2f}% of your income.")
+    print(f"Your groceries are ${groceries:.2f}, which is {groceries_percent:.2f}% of your income.")
+    print(f"Your transportation is ${transportation:.2f}, which is {transportation_percent:.2f}% of your income.")
+    print(f"Your savings are ${savings:.2f}, which is {savings_percent:.2f}% of your income.")
+    print(f"Your remaining spending money is ${spending:.2f}, which is {spending_percent:.2f}% of your income.")
+
+income, rent, utilities, groceries, transportation = get_expenses()
+calculate_percentages(income, rent, utilities, groceries, transportation)

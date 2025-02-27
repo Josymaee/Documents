@@ -10,7 +10,7 @@ scanf("%s",name);
 printf("How old are you: \n");
 scanf("%d", age")
 printf (Write out as much of pi do you know:)
-printf("Hello I am %s I am %d years old. I like the number 
+printf("Hello I am %s I am %d years old. I like the number") 
 printf("%d\n", age);
 printf(%f\n", age);
 printf

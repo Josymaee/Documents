@@ -1,6 +1,5 @@
-# Joslynn Ramirez, First project python
+# Joslynn Ramirez, First program python
 
-Name = "Josy"
 name = input("What is your name: ")
 
 age= input ("How old are you: ")
@@ -11,7 +10,7 @@ small_number = input ("How many classes do you have: ")
 
 subject = input ("what is your favorite subject: ")
 
-year = input ("What is the year: ")
+time = input ("What is the year: ")
 
 color = input ("Whats your favorite color: ")
 
@@ -23,6 +22,9 @@ week = input ("How many days are in a week: ")
 
 year = input ("how many days are in a year: ")
 
-print (name "is", "Favorite subject is ", subject
-print("whats"
-print( "How old are you", )
+print (name, "is", age, "old")
+print ("I go to", school, "and I have", small_number, "classes")
+print ("My favorite subject is", subject, "and It is the year", time)
+print ("My favorite color is", color, "My eye color is", eye)
+print ("I had", breakfast, "this morning.")
+print ("There are", week, "days in a week and there are", year, "days in a year")
